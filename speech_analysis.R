@@ -29,17 +29,6 @@ summary(speeches_bydate$speech_majority_majority)
 summary(speeches_bydate$speech_minority_minority)
 speeches_bydate <- subset(speeches_bydate, speech_majority_majority >=32 & speech_minority_minority >=25)
 
-# Statistics
-summary(speeches_bydate$prop_bipartisan_majority)
-summary(speeches_bydate$prop_bipartisan_minority)
-
-summary(speeches_bydate$sentiment_minority_average)
-summary(speeches_bydate$sentiment_majority_average)
-
-summary(speeches_bydate$sentiment_minority_average_standard)
-summary(speeches_bydate$sentiment_majority_average_standard)
-
-
 
 # Correlations
 # Majority Bipartisan Mentions v. Minority Opinion Sentiment

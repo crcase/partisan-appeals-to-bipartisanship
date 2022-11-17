@@ -1,6 +1,6 @@
 ###### Setup ######  
 rm(list = ls(all.names = TRUE))
-setwd("C:/Users/Colin/Dropbox/5. Research Projects/bipartisanship")
+setwd("C:/Users/colin/partisan-appeals-to-bipartisanship")
 set.seed(1996)
 ######  Load Packages ###### 
 library(ggplot2)
