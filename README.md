@@ -6,6 +6,7 @@ By Colin R. Case and Emily Cottle Ommundsen.
 This folder contains the following files:
 
 Data files:
+
 speech_data.RDS
   This contains the speech sentiment data aggregated by day used for creating Figure 1 and Appendix Figure A.1. Original data can be found at https://data.stanford.edu/congress_text#download-data.
 
@@ -14,6 +15,7 @@ bipartisan_data.RDS
 
 
 Analysis Files:
+
 speech_analysis.R
 	This is the source replication file for Figure 1 and Figure A.1.
 
